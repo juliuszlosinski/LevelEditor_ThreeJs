@@ -124,7 +124,7 @@ function LoadModel(path, posX, posY, posZ, scaleX, scaleY, scaleZ)
 
 //var cat=LoadModel('/cat/scene.gltf', 5, 5, 5, 1, 1, 1);
 //var batman=LoadModel('/batman/scene.gltf', 15, 5, 5, 8, 8, 8);
-var shrek=LoadModel('/shrek/scene.gltf', 10, 5, 5, 5, 0.5, 0.5 ,0.5);
+//var shrek=LoadModel('/shrek/scene.gltf', 10, 5, 5, 5, 0.5, 0.5 ,0.5);
 
 const gui=new GUI({container: document.getElementById( 'custom' )});
 
@@ -244,9 +244,7 @@ function dragObject()
 // ANIMACJA SCENY:
 function animate()
 {
-  plane.rotation.z +=0.1025;
-  plane.rotation.y +=0.1025;
-  plane.rotation.x +=0.1025;
+  plane.rotation.z +=0.0025;
 
   dragObject();
 
