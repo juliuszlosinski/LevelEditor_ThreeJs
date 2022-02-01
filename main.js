@@ -1,7 +1,7 @@
 import './style.css';
 import * as THREE from 'three';
 import { DragControls } from 'three/examples/jsm/controls/DragControls'; 
-import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
+//import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 //import { GUI } from 'dat.gui';
 import GUI from 'lil-gui';
@@ -103,6 +103,7 @@ scene.background = new THREE.CubeTextureLoader()
 		'negz.jpg'
 	] );
 
+/*
 function LoadModel(path, posX, posY, posZ, scaleX, scaleY, scaleZ)
 {
   var loader=new GLTFLoader();
@@ -121,6 +122,8 @@ function LoadModel(path, posX, posY, posZ, scaleX, scaleY, scaleZ)
   objects.push(result);
   return result;
 }
+*/
+
 
 //var cat=LoadModel('/cat/scene.gltf', 5, 5, 5, 1, 1, 1);
 //var batman=LoadModel('/batman/scene.gltf', 15, 5, 5, 8, 8, 8);
