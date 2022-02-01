@@ -1,0 +1,41 @@
+canvas
+{
+  float:left;
+  border:2.5px solid rgb(0, 0, 0);
+  border-radius:5px 5px 5px 5px;
+}
+
+
+#content
+{
+  float:left;
+}
+
+body
+{
+  background-color:rgb(255, 255, 255);
+  background-image: url("bck.jpg");
+  height: 100%;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+
+.lil-gui { 
+  /*
+	--background-color: #000;
+	--widget-color: rgb(255, 255, 255);
+	--padding: 2px;
+  --font-size:25px;
+  --input-font-size:25px;
+  width:200px;
+  --widget-width:250px;
+  --slider-input-width:50px;
+  --widget-padding:5px 5px 5px 5px;
+  --padding:20px;
+  */
+  --font-size:20px;
+  --title-text-color:black;
+  --title-background-color:white;
+  --folder-indent: 15px;
+}
