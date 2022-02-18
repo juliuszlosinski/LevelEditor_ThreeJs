@@ -1,8 +1,7 @@
 import './style.css';
-import * as THREE from 'three/build/three.js';
-import { DragControls } from 'three/examples/jsm/controls/DragControls'; 
+import * as THREE from '/node_modules/three/build/three.js';
 //import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
-import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
+import { OrbitControls } from '/node_modules/three/examples/jsm/controls/OrbitControls';
 //import { GUI } from 'dat.gui';
 import GUI from 'lil-gui';
 
